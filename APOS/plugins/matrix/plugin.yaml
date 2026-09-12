@@ -1,0 +1,16 @@
+name: Matrix Robot
+category: robot
+kind: mixed
+role: strategy_source_code
+url: ""
+window_hints:
+  - Matrix
+tags:
+  - source
+  - matrix
+  - ماتريكس
+  - ملف الروبوت
+skills_preferred:
+  - focus_window
+  - files
+notes: مصدر كود الروبوت المحلي قبل الاختبار على المنصات

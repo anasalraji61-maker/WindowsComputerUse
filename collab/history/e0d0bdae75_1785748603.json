@@ -1,0 +1,163 @@
+{
+  "id": "e0d0bdae75",
+  "goal": "وفي كورسر، تبحث عن رووت ماترك سديد وتسأله وتكتب له وتسأله عن",
+  "phase": "tests",
+  "stages": [
+    {
+      "id": "analyze",
+      "title": "تحليل المشروع وجمع حقائق قابلة للقياس",
+      "kind": "analyze",
+      "status": "ok",
+      "detail": "تم تحليل المشروع",
+      "evidence": {
+        "ok": true,
+        "facts": {
+          "root": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse",
+          "apos": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\APOS",
+          "workspace": "C:\\Users\\AkarTech\\Downloads\\MatrixRobot_Handoff_Clean-3",
+          "exists": {
+            "open_system.bat": true,
+            "chat_ui.py": true,
+            "agent.py": true,
+            "APOS/ui/app.py": true,
+            "task_manager.py": true,
+            "qc_executor.py": true,
+            "qc_robot_main": true
+          },
+          "counts": {
+            "apos_py_files": 79
+          },
+          "notes": [
+            "MatrixRobotQC/main.py موجود",
+            "chat_ui يوجّه المهام المركبة إلى مدير المهام"
+          ],
+          "qc_robot_bytes": 29375,
+          "chat_ui_uses_smart_mission": true,
+          "chat_ui_routes_to_task_manager": true,
+          "ok": true
+        }
+      }
+    },
+    {
+      "id": "cursor_task",
+      "title": "كتابة طلب منظم لـ Cursor في TASK.md",
+      "kind": "cursor_task",
+      "status": "ok",
+      "detail": "كُتب طلب Cursor: TASK.md",
+      "evidence": {
+        "task_path": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\collab\\TASK.md"
+      }
+    },
+    {
+      "id": "read_cursor",
+      "title": "قراءة CURSOR_REPLY.md إن وُجد (وإلا انتظار/إبلاغ)",
+      "kind": "read_cursor",
+      "status": "ok",
+      "detail": "لا يوجد CURSOR_REPLY.md بعد — سأكمل بتحليل محلي وأنتظر ردك/Cursor",
+      "evidence": {
+        "waiting": true,
+        "task_file": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\collab\\TASK.md",
+        "reply_file": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\collab\\CURSOR_REPLY.md"
+      }
+    },
+    {
+      "id": "files",
+      "title": "فحص الملفات الأساسية ومسار التعاون",
+      "kind": "files",
+      "status": "ok",
+      "detail": "الملفات الأساسية موجودة",
+      "evidence": {
+        "ok": true,
+        "missing": [],
+        "collab_dir": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\collab",
+        "collab_ready": true
+      }
+    },
+    {
+      "id": "git",
+      "title": "مراجعة حالة Git وملخص diff",
+      "kind": "git",
+      "status": "ok",
+      "detail": "تم التقاط حالة Git",
+      "evidence": {
+        "repo": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse",
+        "ok": true,
+        "skipped": true,
+        "summary": "لا يوجد مستودع Git هنا"
+      }
+    },
+    {
+      "id": "tests",
+      "title": "تشغيل اختبارات متاحة وتسجيل النتيجة",
+      "kind": "tests",
+      "status": "running",
+      "detail": "",
+      "evidence": {}
+    },
+    {
+      "id": "report",
+      "title": "كتابة REPORT.md النهائي مع الأدلة",
+      "kind": "report",
+      "status": "pending",
+      "detail": "",
+      "evidence": {}
+    }
+  ],
+  "current": 5,
+  "attempts": 0,
+  "max_attempts": 3,
+  "log": [
+    "2026-08-03 12:16:43 | بدأت مهمة جديدة: وفي كورسر، تبحث عن رووت ماترك سديد وتسأله وتكتب له وتسأله عن",
+    "2026-08-03 12:16:43 | OK [analyze] تم تحليل المشروع",
+    "2026-08-03 12:16:43 | OK [cursor_task] كُتب طلب Cursor: TASK.md",
+    "2026-08-03 12:16:43 | OK [read_cursor] لا يوجد CURSOR_REPLY.md بعد — سأكمل بتحليل محلي وأنتظر ردك/Cursor",
+    "2026-08-03 12:16:43 | OK [files] الملفات الأساسية موجودة",
+    "2026-08-03 12:16:43 | OK [git] تم التقاط حالة Git"
+  ],
+  "results": {
+    "analyze": {
+      "ok": true,
+      "facts": {
+        "root": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse",
+        "apos": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\APOS",
+        "workspace": "C:\\Users\\AkarTech\\Downloads\\MatrixRobot_Handoff_Clean-3",
+        "exists": {
+          "open_system.bat": true,
+          "chat_ui.py": true,
+          "agent.py": true,
+          "APOS/ui/app.py": true,
+          "task_manager.py": true,
+          "qc_executor.py": true,
+          "qc_robot_main": true
+        },
+        "counts": {
+          "apos_py_files": 79
+        },
+        "notes": [
+          "MatrixRobotQC/main.py موجود",
+          "chat_ui يوجّه المهام المركبة إلى مدير المهام"
+        ],
+        "qc_robot_bytes": 29375,
+        "chat_ui_uses_smart_mission": true,
+        "chat_ui_routes_to_task_manager": true,
+        "ok": true
+      }
+    },
+    "cursor_reply": null,
+    "files": {
+      "ok": true,
+      "missing": [],
+      "collab_dir": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse\\collab",
+      "collab_ready": true
+    },
+    "git": {
+      "repo": "C:\\Users\\AkarTech\\Downloads\\WindowsComputerUse",
+      "ok": true,
+      "skipped": true,
+      "summary": "لا يوجد مستودع Git هنا"
+    }
+  },
+  "needs_human": "بانتظار رد Cursor: افتح TASK.md في المشروع، نفّذ المطلوب، ثم اكتب النتيجة في collab/CURSOR_REPLY.md وأعد: أكمل المهمة",
+  "created_at": "2026-08-03 12:16:43",
+  "updated_at": "2026-08-03 12:16:43"
+}

@@ -1,0 +1,14 @@
+name: Cursor
+category: ide
+kind: desktop
+role: code_edit_agent
+url: ""
+window_hints:
+  - Cursor
+tags:
+  - ide
+  - coding
+skills_preferred:
+  - focus_window
+  - type
+notes: ورشة تعديل الكود والتدخل البشري/الوكيل

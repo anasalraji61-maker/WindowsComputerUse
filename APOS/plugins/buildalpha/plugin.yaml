@@ -1,0 +1,14 @@
+name: Build Alpha
+category: trading_test
+kind: desktop
+role: auto_strategy_build_eval
+url: https://www.buildalpha.com
+window_hints:
+  - Build Alpha
+tags:
+  - auto_eval
+  - generator
+skills_preferred:
+  - focus_window
+  - explore
+notes: بناء/تقييم تلقائي للاستراتيجيات

@@ -1,0 +1,16 @@
+name: TradingView
+category: trading_test
+kind: web
+role: ideas_indicators_daily
+url: https://www.tradingview.com
+window_hints:
+  - TradingView
+tags:
+  - charts
+  - pine
+  - ideas
+skills_preferred:
+  - focus_window
+  - explore
+  - browse
+notes: فحص الأفكار والمؤشرات ومتابعة احتمالات السوق اليومية

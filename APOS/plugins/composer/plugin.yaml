@@ -1,0 +1,14 @@
+name: Composer
+category: trading_test
+kind: web
+role: symphony_backtest
+url: https://www.composer.trade
+window_hints:
+  - Composer
+tags:
+  - symphony
+  - portfolio
+skills_preferred:
+  - focus_window
+  - browse
+notes: stub — هوية دخول فقط

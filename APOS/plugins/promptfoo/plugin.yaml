@@ -1,0 +1,14 @@
+name: Promptfoo
+category: llm_eval
+kind: cli
+role: prompt_eval
+url: https://www.promptfoo.dev
+window_hints:
+  - Promptfoo
+tags:
+  - prompts
+  - eval
+skills_preferred:
+  - focus_window
+  - explore
+notes: اختبار وتقييم الـ prompts

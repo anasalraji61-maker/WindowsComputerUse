@@ -1,0 +1,14 @@
+name: NinjaTrader
+category: trading_test
+kind: desktop
+role: futures_strategy_test
+url: https://ninjatrader.com
+window_hints:
+  - NinjaTrader
+tags:
+  - futures
+  - strategy
+skills_preferred:
+  - focus_window
+  - explore
+notes: stub — هوية دخول فقط

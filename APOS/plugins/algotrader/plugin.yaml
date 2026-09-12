@@ -1,0 +1,14 @@
+name: AlgoTrader
+category: trading_test
+kind: mixed
+role: institutional_algo
+url: https://www.algotrader.com
+window_hints:
+  - AlgoTrader
+tags:
+  - java
+  - algo
+skills_preferred:
+  - focus_window
+  - explore
+notes: stub — هوية دخول فقط

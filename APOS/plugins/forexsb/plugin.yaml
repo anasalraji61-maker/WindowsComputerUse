@@ -1,0 +1,15 @@
+name: Forex Strategy Builder
+category: trading_test
+kind: desktop
+role: fx_strategy_builder
+url: https://forexsb.com
+window_hints:
+  - Forex Strategy Builder
+  - ForexSB
+tags:
+  - forex
+  - builder
+skills_preferred:
+  - focus_window
+  - explore
+notes: stub — هوية دخول فقط

@@ -1,0 +1,16 @@
+name: StrategyQuant X
+category: trading_test
+kind: desktop
+role: auto_eval_strategy_lab
+url: https://strategyquant.com
+window_hints:
+  - StrategyQuant
+  - StrategyQuant X
+tags:
+  - auto_eval
+  - generator
+  - robustness
+skills_preferred:
+  - focus_window
+  - explore
+notes: أداة تقييم/توليد تلقائي للاستراتيجيات

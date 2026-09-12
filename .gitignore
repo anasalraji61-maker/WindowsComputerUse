@@ -1,0 +1,71 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local models / LLM runtimes (huge)
+APOS/llama_cpp/
+**/llama_cpp/
+**/models/
+**/weights/
+**/*.gguf
+**/*.bin
+**/*.onnx
+**/whisper/
+**/ollama/
+
+# Logs / runtime
+*.log
+agent_run.log
+**/logs/
+APOS/data/
+collab/STATUS.json
+collab/CURSOR_REPLY.md
+collab/REPORT.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Local downloads / scans / personal docs (not source)
+Downloads/
+census_extract/
+census_pages/
+doc9_pages/
+passport_invoice/
+_google_album/
+
+# Archives
+*.zip
+*.7z
+*.rar
+COS_CONSULTATION_PACK.zip
+
+# Node (if any)
+node_modules/
+dist/
+build/

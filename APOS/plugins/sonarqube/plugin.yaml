@@ -1,0 +1,16 @@
+name: SonarQube
+category: llm_eval
+kind: web
+role: code_quality
+url: https://www.sonarqube.org
+window_hints:
+  - SonarQube
+  - Sonar
+tags:
+  - code
+  - quality
+  - sast
+skills_preferred:
+  - focus_window
+  - browse
+notes: فحص جودة الكود والأمان المستمر

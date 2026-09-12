@@ -1,0 +1,15 @@
+name: TradeStation
+category: trading_test
+kind: desktop
+role: walk_forward_optimizer
+url: https://www.tradestation.com
+window_hints:
+  - TradeStation
+  - Walk-Forward
+tags:
+  - walk_forward
+  - optimizer
+skills_preferred:
+  - focus_window
+  - explore
+notes: Walk Forward Optimizer + فحص الاستراتيجيات

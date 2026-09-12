@@ -1,0 +1,22 @@
+id: strategy_validation
+name: Multi-Platform Strategy Validation
+owner: user_guided
+version: 1
+steps:
+  - id: locate_source
+    plugin: matrix
+    action: locate_robot_file
+  - id: snap_source
+    action: snapshot
+    params:
+      name: sv_01_source
+  - id: open_ide
+    plugin: cursor
+    action: focus_workspace
+  - id: choose_platform
+    core: decision
+    action: user_gate
+    note: اختر المنصة من كتالوج plugins (QuantConnect / MT5 / TradingView / …) أو اذكر اسمها في الأمر
+  - id: handoff
+    action: write_handoff
+note: دورة عامة متعددة المنصات — المنصة المحددة تُفتح عبر plugin + استكشاف/رؤية حسب الأمر

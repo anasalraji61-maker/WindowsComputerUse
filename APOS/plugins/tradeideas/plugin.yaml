@@ -1,0 +1,16 @@
+name: Trade Ideas
+category: trading_test
+kind: desktop
+role: auto_eval_holly_ai
+url: https://www.trade-ideas.com
+window_hints:
+  - Trade Ideas
+  - Holly
+tags:
+  - holly
+  - scanner
+  - auto_eval
+skills_preferred:
+  - focus_window
+  - explore
+notes: تقييم تلقائي (Holly AI)

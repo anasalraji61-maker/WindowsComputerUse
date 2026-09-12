@@ -1,0 +1,17 @@
+name: MetaTrader 5
+category: trading_test
+kind: desktop
+role: strategy_tester
+url: ""
+window_hints:
+  - MetaTrader 5
+  - MetaTrader
+  - Strategy Tester
+tags:
+  - mt5
+  - backtest
+  - auto_eval
+skills_preferred:
+  - focus_window
+  - explore
+notes: Strategy Tester — تقييم تلقائي للاستراتيجيات

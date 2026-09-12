@@ -1,0 +1,15 @@
+name: LangSmith
+category: llm_eval
+kind: web
+role: llm_trace_eval
+url: https://smith.langchain.com
+window_hints:
+  - LangSmith
+tags:
+  - llm
+  - eval
+  - traces
+skills_preferred:
+  - focus_window
+  - browse
+notes: تتبع وتقييم تطبيقات LLM

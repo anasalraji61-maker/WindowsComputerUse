@@ -1,0 +1,11 @@
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+anthropic>=0.49.0
+pyautogui>=0.9.54
+mss>=9.0.1
+Pillow>=10.0.0
+python-dotenv>=1.0.0
+faster-whisper>=1.0.0
+pyperclip>=1.8.0
+PyYAML>=6.0

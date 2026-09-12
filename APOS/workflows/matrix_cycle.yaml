@@ -1,0 +1,56 @@
+id: matrix_cycle
+name: Matrix Robot Validation Loop
+owner: user_guided
+version: 7
+steps:
+  - id: locate
+    plugin: matrix
+    action: locate_robot_file
+    note: البحث عن ملف الروبوت ونسخه للحافظة
+  - id: snap_locate
+    action: snapshot
+    params:
+      name: wf_01_locate
+  - id: ask_cursor
+    plugin: cursor
+    action: ask_cursor_robot
+    note: طلب ملف/مراجعة الروبوت عبر Cursor
+  - id: build
+    plugin: cursor
+    action: focus_workspace
+  - id: snap_cursor
+    action: snapshot
+    params:
+      name: wf_02_cursor
+  - id: qc_test
+    plugin: quantconnect
+    action: human_open_qc
+    note: فتح QuantConnect بالمتصفح
+  - id: wait_qc
+    action: wait
+    params:
+      seconds: 2.5
+  - id: detect_login
+    action: detect_qc_login
+  - id: snap_qc
+    action: snapshot
+    params:
+      name: wf_03_qc
+  - id: paste_bt
+    action: qc_paste_backtest
+    note: لصق الكود ومحاولة Backtest إن لم تُطلب شاشة دخول
+  - id: snap_ready
+    action: snapshot
+    params:
+      name: wf_04_ready
+  - id: handoff
+    action: write_handoff
+  - id: decide_qc
+    core: decision
+    action: user_gate
+    note: أكمل الدخول/الباك تست إن لزم ثم قل أكمل أو ارجع لـ Cursor
+  - id: matrix_review
+    plugin: cursor
+    action: open_handoff_report
+    optional: true
+note: "v0.7 — بدون mouse_demo. Locate + Cursor + QC open + paste/backtest."

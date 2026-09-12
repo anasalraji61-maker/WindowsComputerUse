@@ -1,0 +1,25 @@
+name: QuantConnect
+category: trading_test
+kind: web
+role: ultra_fast_backtest_reports
+url: https://www.quantconnect.com/terminal
+window_hints:
+  - QuantConnect
+  - Algorithm Lab
+tags:
+  - backtest
+  - cloud
+  - reports
+  - web_only
+  - كوانت
+  - كوانت كونكت
+  - كوانتكونكت
+  - افحص الروبوت
+  - ملف الروبوت
+  - ماتريكس
+skills_preferred:
+  - focus_window
+  - browse
+notes: ويب فقط (لا تطبيق سطح مكتب رسمي شائع). افتح المتصفح؛ تسجيل الدخول يدوي من المستخدم ثم العمل المستمر.
+access: browser
+login: manual

@@ -1,0 +1,15 @@
+name: TrendSpider
+category: trading_test
+kind: web
+role: chart_strategy_scan
+url: https://trendspider.com
+window_hints:
+  - TrendSpider
+tags:
+  - scan
+  - charts
+skills_preferred:
+  - focus_window
+  - explore
+  - browse
+notes: stub — هوية دخول فقط؛ التعلم بالتجربة لاحقاً

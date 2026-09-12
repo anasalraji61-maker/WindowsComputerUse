@@ -1,0 +1,15 @@
+name: DeepEval
+category: llm_eval
+kind: cli
+role: llm_unit_eval
+url: https://docs.confident-ai.com
+window_hints:
+  - DeepEval
+  - Confident
+tags:
+  - llm
+  - tests
+skills_preferred:
+  - focus_window
+  - explore
+notes: إطار اختبارات لوحدات/مخرجات LLM

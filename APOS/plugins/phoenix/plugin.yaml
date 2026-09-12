@@ -1,0 +1,16 @@
+name: Arize Phoenix
+category: llm_eval
+kind: mixed
+role: llm_observability
+url: https://phoenix.arize.com
+window_hints:
+  - Phoenix
+  - Arize
+tags:
+  - llm
+  - observability
+skills_preferred:
+  - focus_window
+  - explore
+  - browse
+notes: مراقبة وتقييم نماذج/مسارات الذكاء
